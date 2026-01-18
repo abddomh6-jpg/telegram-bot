@@ -1,7 +1,7 @@
 from telegram import Update, ChatPermissions
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "8291076456:AAGvbuurJLboZOwbTiXZc9FjA4j3y5G39Pc"
+TOKEN = "8291076456:AAF81YD2dSQvwrwjCwE2Jd4MW3GZUvrdLxQ"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🤖 بوت الإدارة جاهز للعمل")
